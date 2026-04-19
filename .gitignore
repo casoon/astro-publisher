@@ -1,0 +1,12 @@
+docs/
+node_modules/
+.turbo/
+dist/
+coverage/
+.DS_Store
+*.log
+apps/admin/dist/
+apps/admin/src/**/*.js
+apps/admin/src/**/*.js.map
+apps/admin/vite.config.js
+apps/admin/vite.config.js.map

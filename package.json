@@ -1,0 +1,21 @@
+{
+  "name": "astro-publisher",
+  "private": true,
+  "description": "Monorepo for Astro Publisher",
+  "packageManager": "pnpm@10.26.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @astro-publisher/admin dev",
+    "dev:api": "pnpm --filter @astro-publisher/api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  }
+}

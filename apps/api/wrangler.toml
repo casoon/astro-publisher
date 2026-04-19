@@ -1,0 +1,12 @@
+name = "astro-publisher-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "astro_publisher_db"
+database_id = "placeholder-id-for-dev"
+
+[vars]
+ENVIRONMENT = "development"
+AUTH_SECRET = "replace-me-for-local-dev"
